@@ -123,7 +123,7 @@ export default function LandingPage() {
   const backgroundY = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
 
   // Smooth scroll function
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId:string) => {
     const element = document.getElementById(sectionId)
     if (element) {
       const navbar = document.querySelector('nav')
@@ -184,11 +184,11 @@ export default function LandingPage() {
   }, [])
 
   const navItems = [
-    { label: 'Home', href: 'hero' },
-    { label: 'About', href: 'about' },
-    { label: 'Features', href: 'features' },
-    { label: 'Integrations', href: 'integrations' },
-    { label: 'Testimonials', href: 'testimonials' }
+    { label: 'Home', href: '#hero' },
+    { label: 'About', href: '#about' },
+    { label: 'Features', href: '#features' },
+    { label: 'Integrations', href: '#integrations' },
+    { label: 'Testimonials', href: '#testimonials' }
   ]
 
   const logo = (
