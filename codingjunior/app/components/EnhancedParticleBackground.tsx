@@ -12,6 +12,7 @@ interface Particle {
   color: string
   life: number
   maxLife: number
+  
 }
 
 export default function EnhancedParticleBackground() {

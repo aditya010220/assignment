@@ -466,8 +466,8 @@ export default function LandingPage() {
         </section>
 
         {/* Stats Section */}
-        <EnhancedScrollReveal id = "about" className="py-16 bg-slate-900/30" direction="fade">
-          <div className="container mx-auto px-4">
+        <EnhancedScrollReveal  className="py-16 bg-slate-900/30" direction="fade">
+          <div id = "about" className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat, index) => (
                 <EnhancedScrollReveal
@@ -493,8 +493,8 @@ export default function LandingPage() {
         </EnhancedScrollReveal>
 
         {/* Features Section with Flip Cards */}
-        <EnhancedScrollReveal id="features" className="py-24 bg-slate-900/50" direction="scale">
-          <div className="container mx-auto px-4">
+        <EnhancedScrollReveal className="py-24 bg-slate-900/50" direction="scale">
+          <div id="features" className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -571,8 +571,8 @@ export default function LandingPage() {
         </EnhancedScrollReveal>
 
         {/* Integrations Section */}
-        <EnhancedScrollReveal id="integrations" className="py-24" direction="fade">
-          <div className="container mx-auto px-4">
+        <EnhancedScrollReveal  className="py-24" direction="fade">
+          <div id="integrations" className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -621,8 +621,8 @@ export default function LandingPage() {
         </EnhancedScrollReveal>
 
         {/* Testimonials Section */}
-        <EnhancedScrollReveal id="testimonials" className="py-24 bg-slate-900/50" direction="scale">
-          <div className="container mx-auto px-4">
+        <EnhancedScrollReveal  className="py-24 bg-slate-900/50" direction="scale">
+          <div id="testimonials" className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
