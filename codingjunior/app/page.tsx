@@ -466,7 +466,7 @@ export default function LandingPage() {
         </section>
 
         {/* Stats Section */}
-        <EnhancedScrollReveal id="about" className="py-16 bg-slate-900/30" direction="fade">
+        <EnhancedScrollReveal id = "about" className="py-16 bg-slate-900/30" direction="fade">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat, index) => (
